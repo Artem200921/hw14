@@ -16218,7 +16218,7 @@ class App extends (0, _reactDefault.default).Component {
     };
     searchRequest = (e)=>{
         e.preventDefault();
-        const text = (e.currentTarget.elements[0]?.value || "").trim();
+        const text = (e.currentTarget.elements[1].value || "").trim();
         if (text === "") {
             console.log("Search input is empty");
             return;
